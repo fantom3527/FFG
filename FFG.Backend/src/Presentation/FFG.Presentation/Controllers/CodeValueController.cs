@@ -16,7 +16,7 @@ namespace FFG.Presentation.Controllers
         /// <param name="cancellationToken">The cancellation token.</param>
         /// <remarks>
         /// Sample request:
-        /// GET /Executor/3
+        /// GET /CodeValue/?query=7
         /// </remarks>
         /// <returns>Returns CodeValues.</returns>
         /// <response code="200">Success</response>

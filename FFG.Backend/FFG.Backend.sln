@@ -33,8 +33,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{D278A6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{EA465DB9-BA18-449D-BABF-A48FADE7A75A}"
 	ProjectSection(SolutionItems) = preProject
-		common\Docker\docker-compose.yml = common\Docker\docker-compose.yml
-		common\Docker\Dockerfile = common\Docker\Dockerfile
+		.dockerignore = .dockerignore
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
 Global
