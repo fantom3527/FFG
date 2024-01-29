@@ -21,7 +21,7 @@ services:
         environment:
             POSTGRES_USER: postgres
             POSTGRES_PASSWORD: 123
-            POSTGRES_DB: testpeoplescities
+            POSTGRES_DB: ffg_db
         ports:
             - "5432:5432"
         networks:
