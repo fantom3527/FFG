@@ -25,9 +25,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFG.Presentation", "src\Pre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{A44985FE-DE49-4B3D-98EF-D498541981C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFG.Migrations.PostgreSql", "src\Migrations\FFG.Migrations.PostgreSql\FFG.Migrations.PostgreSql.csproj", "{C766BFB2-A915-4EB1-BB0B-0124473D8412}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFG.Migrations.PostgreSql", "src\Migrations\FFG.Migrations.PostgreSql\FFG.Migrations.PostgreSql.csproj", "{C766BFB2-A915-4EB1-BB0B-0124473D8412}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFG.Migrations.Sqlite", "src\Migrations\FFG.Migrations.Sqlite\FFG.Migrations.Sqlite.csproj", "{0937B3C7-49F0-42C7-BC68-D6EFF34EF01D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFG.Migrations.Sqlite", "src\Migrations\FFG.Migrations.Sqlite\FFG.Migrations.Sqlite.csproj", "{0937B3C7-49F0-42C7-BC68-D6EFF34EF01D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{D278A6B7-1B62-49BB-8A29-1D41D385ADEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{EA465DB9-BA18-449D-BABF-A48FADE7A75A}"
+	ProjectSection(SolutionItems) = preProject
+		common\Docker\docker-compose.yml = common\Docker\docker-compose.yml
+		common\Docker\Dockerfile = common\Docker\Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,6 +92,7 @@ Global
 		{A44985FE-DE49-4B3D-98EF-D498541981C5} = {33FDA5F0-A044-4849-929A-4EC85B9AA136}
 		{C766BFB2-A915-4EB1-BB0B-0124473D8412} = {A44985FE-DE49-4B3D-98EF-D498541981C5}
 		{0937B3C7-49F0-42C7-BC68-D6EFF34EF01D} = {A44985FE-DE49-4B3D-98EF-D498541981C5}
+		{EA465DB9-BA18-449D-BABF-A48FADE7A75A} = {D278A6B7-1B62-49BB-8A29-1D41D385ADEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D392CBE-E0D6-4151-AC3A-250CFDF1B640}

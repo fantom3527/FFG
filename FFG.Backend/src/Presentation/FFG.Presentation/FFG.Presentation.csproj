@@ -9,6 +9,9 @@
     <!--Убираем ошибки для недокументированных открытых типов и членов-->
     <NoWarn>$(NoWam);1591</NoWarn>
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <UserSecretsId>457bd7f9-6881-404a-93a2-6aeb912efda8</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +19,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 

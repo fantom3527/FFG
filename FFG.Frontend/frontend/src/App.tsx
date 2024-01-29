@@ -6,7 +6,7 @@ import { Client } from "./api/CodeValues/CodeValueApi"
 import CodeValueTable from "./components/Tables/CodeValueTable"
 
 //TODO: Убрать в другое место
-const apiClient = new Client('https://localhost:7083');
+const apiClient = new Client('http://localhost:7247');
 
 function App() {
   const handleButtonClickUpdate = async () => { 
